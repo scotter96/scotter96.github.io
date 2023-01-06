@@ -71,10 +71,10 @@ p {
 .main-button a {
     background-color: #f5a425;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 10px 16px;
     display: inline-block;
     outline: none;
@@ -149,11 +149,22 @@ a.menu-link { display: none; }
 }
 
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) -3% 100% no-repeat;
+  background: transparent url(../images/button-github-icon2.png) 0% 100% no-repeat;
 }
 
-#view-on-github {
-  margin-right: 0;
+#view-on-linkedin span {
+  background: transparent url(../images/button-linkedin-icon2.png) 0% 100% no-repeat;
+}
+
+#download-resume span {
+  background: transparent url(../images/button-resume-icon2.png) 0% 100% no-repeat;
+}
+
+#view-on-github,
+#view-on-linkedin,
+#download-resume {
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 #downloads {
