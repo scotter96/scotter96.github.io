@@ -171,6 +171,22 @@ a.menu-link { display: none; }
   margin-bottom: 40px;
 }
 
+.avatar {
+  margin-top: 2%;
+  margin-bottom: -5%;
+  vertical-align: middle;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.avatar-name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: -5%;
+}
+
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   #downloads {
