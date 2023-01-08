@@ -43,6 +43,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-top: -12%;
 }
 
 .section-heading {
@@ -102,7 +103,7 @@ a.menu-link { display: none; }
 }
 
 #view-on-github span {
-  background: transparent url(../images/button-github-icon2.png) 0% 100% no-repeat;
+  background: transparent url(../images/button-github-icon3.png) 0% 100% no-repeat;
 }
 
 #view-on-linkedin span {
@@ -124,6 +125,13 @@ a.menu-link { display: none; }
   margin-bottom: 40px;
 }
 
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  #downloads {
+    margin-bottom: 25px;
+  }
+}
+
 .avatar {
   margin-top: 2%;
   margin-bottom: -5%;
@@ -138,13 +146,6 @@ a.menu-link { display: none; }
   font-size: 24px;
   font-weight: bold;
   margin-bottom: -5%;
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  #downloads {
-    margin-bottom: 25px;
-  }
 }
 
 /* Header */
@@ -282,6 +283,11 @@ a.menu-link { display: none; }
   margin-bottom: 0;
 }
 
+.main-banner img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 .main-banner .caption {
   text-align: center;
   position: absolute;
@@ -348,6 +354,8 @@ section.why-us {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
+    position: relative;
+    margin-top: -18%;
 }
 
 #tabs {
