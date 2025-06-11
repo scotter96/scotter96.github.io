@@ -106,6 +106,10 @@ a.menu-link { display: none; }
   background: transparent url(../images/button-github-icon3.png) 0% 100% no-repeat;
 }
 
+#view-on-gitlab span {
+  background: url(../images/rsz_button-gitlab-icon.png) 0% 0% no-repeat;
+}
+
 #view-on-linkedin span {
   background: transparent url(../images/button-linkedin-icon2.png) 0% 100% no-repeat;
 }
@@ -115,6 +119,7 @@ a.menu-link { display: none; }
 }
 
 #view-on-github,
+#view-on-gitlab,
 #view-on-linkedin,
 #download-resume {
   margin-left: 1%;
