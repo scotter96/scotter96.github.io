@@ -390,7 +390,7 @@ section.why-us {
   letter-spacing: 1px;
   text-align: center;
 }
-#tabs ul li a {
+#tabs-link {
   display: block;
   font-size: 13px;
   font-weight: 700;
@@ -403,7 +403,7 @@ section.why-us {
   text-transform: uppercase;
   position: relative;
 }
-#tabs ul li a:before {
+#tabs-link:before {
     transition: all 0.3s;
     width: 25px;
     height: 25px;
